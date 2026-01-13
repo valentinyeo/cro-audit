@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Audit outputs (screenshots and reports)
+audits/*/screenshots/
+audits/*/annotated/
+audits/*/report/
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Build
+dist/
